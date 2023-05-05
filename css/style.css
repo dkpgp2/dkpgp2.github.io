@@ -20,7 +20,7 @@
   --image_height: 140px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
-  --title_color: #fff;
+  --title_color: #FFFAFA;
   --description_color: #fff;
 
   /* You can change the colors of social media icons by changing the color code. */
@@ -51,10 +51,10 @@
 
 body {
   font: var(--font_size) var(--font_family);
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.5;
   background: var(--background_color) var(--background_image) no-repeat center;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
